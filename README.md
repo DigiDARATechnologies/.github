@@ -1,4 +1,4 @@
-# Step-by-Step Guide to Setting Up VS Code, Python, and Jupyter Notebook
+# Step-by-Step Guide to Setting Up VS Code, Python, Jupyter Notebook, and Google Colab
 
 ## 1. Install Visual Studio Code (VS Code)
 1. Download VS Code from the official website: [VS Code Download](https://code.visualstudio.com/)
@@ -62,13 +62,24 @@
 1. Create a new notebook (`File > New File > Jupyter Notebook (.ipynb)`).
 2. Type Python code in a cell and run it using `Shift + Enter`.
 
-## 8. Additional Tips
+## 8. Using Google Colab
+1. Open Google Colab: [Google Colab](https://colab.research.google.com/)
+2. Sign in with your Google account.
+3. Create a new notebook by clicking `File > New Notebook`.
+4. Upload files by clicking `Files` on the left panel and using the `Upload` button.
+5. Install any missing packages using `!pip install <package_name>`.
+6. Run code in a cell using `Shift + Enter`.
+7. Save your work in Google Drive or download it as a `.ipynb` file.
+
+## 9. Additional Tips
 - Use `Ctrl+Shift+P` to open the command palette and search for `Python: Select Interpreter`.
 - Use `pip install <package>` to install required libraries.
 - Use `jupyter notebook --notebook-dir=path/to/your/folder` to open notebooks in a specific directory.
 
-## 9. Troubleshooting
+## 10. Troubleshooting
 - If Jupyter is not recognized, restart VS Code and reopen the terminal.
 - If the kernel is not found, select the correct interpreter from the Python extension.
+- If Google Colab disconnects, use Google Colab Pro for better stability.
 
-### Now you're all set to use Python and Jupyter Notebook in VS Code!
+### Now you're all set to use Python, Jupyter Notebook, and Google Colab!
+
